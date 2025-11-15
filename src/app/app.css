@@ -1,0 +1,33 @@
+.navbar-container {
+  display: flex;           /* horizontal layout */
+  justify-content: center; /* center the links */
+  align-items: center;     /* vertically aligned */
+  background-color: white;
+  padding: 20px 0;
+  gap: 50px;               /* space between links */
+}
+
+.nav-link {
+  color: black;
+  font-size: 22px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: red; /* gold highlight */
+  transform: scale(1.1);
+}
+
+.footer-container{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color:white; /* Bootstrap blue */
+  color: black;
+  text-align: right;
+  font-size: 12px;
+  z-index: 1000; 
+}
