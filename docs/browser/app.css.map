@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/app.css"],
-  "sourcesContent": [".navbar-container {\r\n  display: flex;           /* horizontal layout */\r\n  justify-content: center; /* center the links */\r\n  align-items: center;     /* vertically aligned */\r\n  background-color: white;\r\n  padding: 20px 0;\r\n  gap: 50px;               /* space between links */\r\n}\r\n\r\n.nav-link {\r\n  color: black;\r\n  font-size: 22px;\r\n  font-weight: 500;\r\n  text-decoration: none;\r\n  transition: all 0.3s ease;\r\n}\r\n\r\n.nav-link:hover,\r\n.nav-link.active {\r\n  color: red; /* gold highlight */\r\n  transform: scale(1.1);\r\n}\r\n\r\n.footer-container{\r\n  position: fixed;\r\n  bottom: 0;\r\n  width: 100%;\r\n  background-color:white; /* Bootstrap blue */\r\n  color: black;\r\n  text-align: right;\r\n  font-size: 12px;\r\n  z-index: 1000; \r\n}"],
-  "mappings": ";AAAA,CAAC;AACC,WAAS;AACT,mBAAiB;AACjB,eAAa;AACb,oBAAkB;AAClB,WAAS,KAAK;AACd,OAAK;AACP;AAEA,CAAC;AACC,SAAO;AACP,aAAW;AACX,eAAa;AACb,mBAAiB;AACjB,cAAY,IAAI,KAAK;AACvB;AAEA,CARC,QAQQ;AACT,CATC,QASQ,CAAC;AACR,SAAO;AACP,aAAW,MAAM;AACnB;AAEA,CAAC;AACC,YAAU;AACV,UAAQ;AACR,SAAO;AACP,oBAAiB;AACjB,SAAO;AACP,cAAY;AACZ,aAAW;AACX,WAAS;AACX;",
-  "names": []
-}
